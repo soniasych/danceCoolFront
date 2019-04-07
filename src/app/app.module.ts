@@ -4,11 +4,17 @@ import { NgModule } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { FooterComponent } from './footer/footer.component';
+import { MentorPageComponent } from './mentor-page/mentor-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent
+    UserComponent,
+    NavBarComponent,
+    FooterComponent,
+    MentorPageComponent
   ],
   imports: [
     BrowserModule,
