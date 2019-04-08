@@ -7,6 +7,7 @@ import { UserComponent } from './user/user.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MentorPageComponent } from './mentor-page/mentor-page.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MentorPageComponent } from './mentor-page/mentor-page.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [UserService],
   bootstrap: [AppComponent]
