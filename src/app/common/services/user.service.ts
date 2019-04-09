@@ -7,12 +7,12 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class UserService {
-  restUrl = 'http://localhost:3000';
+  restUrl = 'http://localhost:5000/api/';
 
   constructor(private http: HttpClient) { }
 
   getUsers(): Observable<User[]> {
-    const usersUrl = `${this.restUrl}/users`;
-    return this.http.get<User[]>(usersUrl)
+    const usersUrl = `http://localhost:5000/api/users`;
+    return this.http.get<User[]>(usersUrl);
   }
 }
