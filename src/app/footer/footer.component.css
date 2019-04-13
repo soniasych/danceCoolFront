@@ -1,0 +1,10 @@
+.footer{
+    height: 5vh;
+    background-color:#ef9a9a;
+    position: fixed;
+    bottom: 0vh;
+}
+
+.footer-button-toolbar{
+    height: 3vh;
+}
