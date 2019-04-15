@@ -1,6 +1,4 @@
-.main-bar {
-  height: 1vh;
-  background-color: #ef9a9a;
+.navbar {
+    max-height: 5vh;
+    background-color: #ffebee;
 }
-
-.button-toolbar {}

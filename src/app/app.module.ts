@@ -11,6 +11,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { MainPageComponent } from './main-page/main-page.component';
+import { CarouselComponent } from './main-page/carousel/carousel.component';
+import { GroupsGridComponent } from './main-page/groups-grid/groups-grid.component';
+import { NewsTilesComponent } from './main-page/news-tiles/news-tiles.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { MainPageComponent } from './main-page/main-page.component';
     NavBarComponent,
     FooterComponent,
     MentorPageComponent,
-    MainPageComponent
+    MainPageComponent,
+    CarouselComponent,
+    GroupsGridComponent,
+    NewsTilesComponent
   ],
   imports: [
     AppRoutingModule,
