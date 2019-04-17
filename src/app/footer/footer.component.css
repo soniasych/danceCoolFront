@@ -7,4 +7,25 @@
 
 .footer-button-toolbar{
     height: 3vh;
-}
+}  
+
+  .pepper-icon-imgage {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .flax-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  
+  .navbar-left-item {
+    text-align: start;
+    margin: 1em;
+  }
+  
+  .navbar-right-item {
+    margin-left: auto;
+  }
+  
